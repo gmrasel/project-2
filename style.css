@@ -1,0 +1,64 @@
+/*----------------- fonts--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* -------Utilities------ */
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container{
+    width: 1000px;
+}
+/* -----------hero/main-section---------- */
+
+.main-section{
+    display: flex;
+}
+.influncer{
+    padding-right: 40px;
+}
+.section-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    font-weight: 700;
+}
+button{
+    width: 196px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    font-size: 17px;
+    font-weight: 700;
+   border-radius: 30px;
+   border: none;
+   margin-top: 20px;
+}
+.fad{
+    color: white;
+    padding-left: 7px;
+}
+.main-camera{
+    background-image: url("circledesign.svg");
+}
+.main-camera img{
+    width: 200%;
+}
+
+ /* --------logos------ */
+
+ .logos{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+ }
+ .logo-border{
+     border: 3px solid lightgrey;
+     margin-bottom: 40px;
+     margin-top: 40;
+ }
