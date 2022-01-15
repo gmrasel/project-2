@@ -115,6 +115,21 @@ button:hover{
     color: #787885;
  }
 
+ a{
+     color: #E02C6D;
+     padding-top: 40px;
+     text-decoration: none;
+     right: 100px;
+ }
+ .see-more{
+     display: flex;
+     justify-content: flex-end;
+     color: #E02C6D;
+ }
+ #icon{
+     color: #E02C6D;
+ }
+
  /* ----------contact form-------- */
 
  .form{
